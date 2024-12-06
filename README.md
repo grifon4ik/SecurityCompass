@@ -45,11 +45,13 @@ Example usage:
 This will generate a CSV report showing the vulnerabilities found in each container image.
 
 Extract Image Names Only (CheckOnlyImageNames.sh): If you want to only extract the container images from a Helm chart without performing a scan:
+```
 ./CheckOnlyImageNames.sh <chart_name_with_version>
+```
 
 Remove Installed Tools (remove_tools.sh): To remove Helm, Trivy, jq, and yq, run:
 ```./remove_tools.sh```
-./vulnerability_scan.sh <chart_name_with_version>
+```./vulnerability_scan.sh <chart_name_with_version>```
 Example:
 ```
 ./vulnerability_scan.sh jenkins/jenkins:3.0.0
