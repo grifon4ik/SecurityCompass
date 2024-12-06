@@ -124,7 +124,7 @@ If more time were available, the following enhancements would be prioritized:
 
 
 ## Folder Tree:
-.
+```
 ├── CheckOnlyImageNames.sh
 ├── README.md
 ├── examples
@@ -137,3 +137,4 @@ If more time were available, the following enhancements would be prioritized:
 ├── remove_tools.sh
 ├── test_script.sh
 └── vulnerability_scan.sh
+```
