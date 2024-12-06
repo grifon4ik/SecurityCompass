@@ -24,17 +24,17 @@ This script removes Helm, Trivy, jq, and yq from the system, along with any asso
 1. Clone or Download the Scripts: Download or clone the project repository to your local machine.
 
 2. Ensure the Scripts are Executable: Make sure the scripts are executable by running the following command:
-chmod +x *.sh
+```chmod +x *.sh```
 
 3. Run the Scripts:
 
 - Test the Tools (test_script.sh): This script will verify that all the necessary tools are installed and provide version details. Run it like this:
-./test_script.sh
+```./test_script.sh```
 - Install Missing Tools (prerequisites.sh): This script installs any missing tools if necessary.
 Run it with:
-./prerequisites.sh
+```./prerequisites.sh```
 - Scan for Vulnerabilities (vulnerability_scan.sh): Use this script to extract images from a Helm chart and run a Trivy scan on each container image:
-./vulnerability_scan.sh <chart_name_with_version>
+```./vulnerability_scan.sh <chart_name_with_version>```
 
 Example usage:
 ./vulnerability_scan.sh jenkins/jenkins:3.0.0
@@ -45,7 +45,7 @@ Extract Image Names Only (CheckOnlyImageNames.sh): If you want to only extract t
 ./CheckOnlyImageNames.sh <chart_name_with_version>
 
 Remove Installed Tools (remove_tools.sh): To remove Helm, Trivy, jq, and yq, run:
-./remove_tools.sh
+```./remove_tools.sh```
 ./vulnerability_scan.sh <chart_name_with_version>
 Example:
 ./vulnerability_scan.sh jenkins/jenkins:3.0.0
