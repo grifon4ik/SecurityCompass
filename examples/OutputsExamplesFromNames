@@ -1,0 +1,37 @@
+➜jenkins/jenkins:2.7.0
+Extracting container images from Helm chart: jenkins/jenkins:2.7.0 (version: 2.7.0)...
+The following container images are found in the Helm chart:
+jenkins/jenkins:lts
+jenkins/jenkins:lts
+kiwigrid/k8s-sidecar:0.1.193
+---
+dduportal/bats:0.4.0
+jenkins/jenkins:lts
+
+
+
+-------------------
+➜jenkins/jenkins:3.0.0
+
+Extracting container images from Helm chart: jenkins/jenkins:3.0.0 (version: 3.0.0)...
+The following container images are found in the Helm chart:
+jenkins/jenkins:lts
+jenkins/jenkins:lts
+kiwigrid/k8s-sidecar:0.1.275
+---
+bats/bats:1.2.1
+jenkins/jenkins:lts
+
+----------------------------------
+
+
+
+➜ bitnami/pytorch:2.6.0  
+
+Extracting container images from Helm chart: bitnami/pytorch:2.6.0 (version: 2.6.0)...
+The following container images are found in the Helm chart:
+docker.io/bitnami/pytorch:1.13.1-debian-11-r24
+
+
+
+
